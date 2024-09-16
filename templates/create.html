@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer un nouvel article</title>
+    <link rel="stylesheet" href="../static/create.css">
+</head>
+<body>
+    <header class="Sekaly">
+        <h1>Créer un nouvel article</h1>
+        <form method="post">
+            <label for="title">Titre:</label>
+            <input type="text" name="title" id="title" required>
+            <label for="content">Contenu:</label>
+            <textarea name="content" id="content" rows="10" required></textarea> <br>
+            <button type="submit">Publier</button>
+        </form> <br>
+        <a href="{{ url_for('index') }}">Retour à la page d'accueil</a>
+    </header>
+</body>
+</html>

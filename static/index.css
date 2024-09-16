@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(236, 145, 145);
+    margin: 0;
+    padding: 0;
+    
+}
+
+.Sekaly {
+    background-color: #c43030;
+    padding: 20px;
+    width: 97%;
+    text-align: center;
+}
+
+em{
+    color: blue;
+    height: inherit;
+}
+
+span{
+    color: red;
+}
+
+p{
+    color: black;
+    font-size: 1.2em;
+}
+
+.Sekou{
+    margin-left: 40px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white ;
+    font-size: 3em;
+}
+
+h2{
+    margin-bottom: 20px;
+    color: white ;
+    font-size: 1.8em; 
+}
+
+
+a {
+    padding: 10px;
+    background-color: rgb(61, 87, 236);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+button {
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.Sekaly_1 a {
+    padding: 10px;
+    background-color: rgb(238, 81, 18);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+.Seka_1 a {
+    padding: 10px;
+    background-color: rgb(61, 87, 236);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.Seka_2 a {
+    padding: 10px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    text-decoration: none;
+}
+

@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(236, 145, 145);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Sekaly {
+    background-color: #c43030;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white ;
+    font-size: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(61, 87, 236);
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(61, 87, 236);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ post.title }}</title>
+    <link rel="stylesheet" href="../static/post.css">
+</head>
+<body>
+    <article class="Sekou">
+        <h1>{{ post.title }}</h1>
+        <p>Publié le <span>{{ post.date_posted.strftime('%d %B %Y') }}</span> par <em>{{ post.author.username }}</em></p>
+        <p>{{ post.content }}</p>
+        <a href="{{ url_for('index') }}">Retour à la page d'accueil</a>
+    </article>
+</body>
+</html>

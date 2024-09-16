@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(236, 145, 145);
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+em{
+    color: blue;
+    height: inherit;
+}
+
+span{
+    color: red;
+}
+
+p{
+    color: black;
+    font-size: 1.2em;
+}
+
+.Sekou{
+    margin-left: 40px;
+}
+
+
+h1{
+    margin-bottom: 20px;
+    color: white ;
+    font-size: 1.8em; 
+}
+
+
+a {
+    padding: 10px;
+    background-color: rgb(61, 87, 236);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    text-decoration: none;
+}
